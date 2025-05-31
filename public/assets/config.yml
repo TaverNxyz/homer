@@ -1,8 +1,8 @@
 # Homer Dashboard Configuration
 # Web-hosted on Netlify from GitHub
 
-title: "Personal Hub"
-subtitle: "Quick Access Dashboard"
+title: "Escos Private Hosted Dashboard"
+subtitle: "Secure Digital Command Center"
 # Use a web-accessible logo or remove this line to use the icon below
 # logo: "assets/logo.png"
 icon: "fas fa-home"
@@ -59,15 +59,15 @@ message:
 links:
   - name: "GitHub Repository"
     icon: "fab fa-github"
-    url: "https://github.com/YOUR-USERNAME/homer-dashboard"
+    url: "https://github.com/escos/homer-dashboard"
     target: "_blank"
   - name: "Netlify Deploy"
     icon: "fas fa-cloud"
-    url: "https://app.netlify.com/sites/YOUR-SITE-NAME"
+    url: "https://app.netlify.com/sites/escos-dashboard"
     target: "_blank"
   - name: "Edit Config"
     icon: "fas fa-edit"
-    url: "https://github.com/YOUR-USERNAME/homer-dashboard/edit/main/config.yml"
+    url: "https://github.com/escos/homer-dashboard/edit/main/config.yml"
     target: "_blank"
 
 services:
