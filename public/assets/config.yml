@@ -49,6 +49,7 @@ colors:
     link-hover: "#18ffff"
 
 
+
 # Welcome message
 message:
   style: "is-info"
