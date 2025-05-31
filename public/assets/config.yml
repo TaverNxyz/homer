@@ -153,7 +153,7 @@ services:
         subtitle: "Home Security & Doorbell"
         tag: "security"
         tagstyle: "is-primary"
-        url: "https://ring.com/dashboard"
+        url: "https://account.ring.com/account/dashboard"
         target: "_blank"
         keywords: "ring doorbell security camera home"
 
