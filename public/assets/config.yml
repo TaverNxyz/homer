@@ -42,8 +42,8 @@ colors:
     card-background: "#121212"
     text: "#00e5ff"
     text-header: "#00e5ff"
-    text-title: "#00e5ff"
-    text-subtitle: "#00e5ff"
+    text-title: "#000000"
+    text-subtitle: "#000000"
     card-shadow: rgba(0, 229, 255, 0.3)
     link: "#00e5ff"
     link-hover: "#18ffff"
