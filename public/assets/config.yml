@@ -3,23 +3,20 @@
 
 title: "Escos Private Hosted Dashboard"
 subtitle: "Secure Digital Command Center"
-# Use a web-accessible logo or remove this line to use the icon below
-# logo: "assets/logo.png"
 icon: "fas fa-home"
 
 header: true
 footer: '<p>⚡ <span class="has-text-info">Hosted on Netlify</span> | <span class="has-text-primary">Cyber Secure</span></p>'
 
-columns: "2" # Clean layout for web services
-connectivityCheck: true # Will check if external services are accessible
+columns: "2"
+connectivityCheck: true
 
 defaults:
   layout: columns
-  colorTheme: dark # Default to the cool cyber theme
+  colorTheme: dark
 
 theme: default
 
-# Cyber cyan & black color scheme
 colors:
   light:
     highlight-primary: "#00bcd4"
@@ -35,8 +32,8 @@ colors:
     link: "#00bcd4"
     link-hover: "#00acc1"
   dark:
-    highlight-primary: "#003e46"         # darker cyan for sections
-    highlight-secondary: "#00514e"       # darker mint green
+    highlight-primary: "#003e46"
+    highlight-secondary: "#00514e"
     highlight-hover: "#00e5ff"
     background: "#000000"
     card-background: "#121212"
@@ -45,19 +42,15 @@ colors:
     text-title: "#00e5ff"
     text-subtitle: "#00bcd4"
     card-shadow: rgba(0, 229, 255, 0.3)
-    link: "#00ffff"                     # cyan, still readable
+    link: "#00ffff"
     link-hover: "#18ffff"
 
-
-
-# Welcome message
 message:
   style: "is-info"
   title: "⚡ Cyber Dashboard Online"
   icon: "fa fa-bolt"
   content: "Quick access to your digital world. Secured with modern encryption and hosted on lightning-fast infrastructure."
 
-# Navigation links
 links:
   - name: "GitHub Repository"
     icon: "fab fa-github"
@@ -72,16 +65,16 @@ links:
     url: "https://github.com/escos/homer-dashboard/edit/main/config.yml"
     target: "_blank"
 
-    - name: "System Monitoring"
-  icon: "fas fa-heartbeat"
-  items:
-    - name: "Network Status"
-      logo: "assets/tools/monitor.png"
-      subtitle: "Live service monitoring"
-      url: "https://nopwn.tavernappy.xyz/"
-      target: "_blank"
+services:
+  - name: "System Monitoring"
+    icon: "fas fa-heartbeat"
+    items:
+      - name: "Network Status"
+        logo: "assets/tools/monitor.png"
+        subtitle: "Live service monitoring"
+        url: "https://nopwn.tavernappy.xyz/"
+        target: "_blank"
 
-    
   - name: "Entertainment"
     icon: "fas fa-play-circle"
     items:
@@ -93,7 +86,7 @@ links:
         url: "https://netflix.com"
         target: "_blank"
         keywords: "movies tv shows streaming entertainment"
-      
+
       - name: "Plex Web"
         icon: "fas fa-server"
         subtitle: "Personal Media Server"
@@ -114,7 +107,7 @@ links:
         url: "https://github.com"
         target: "_blank"
         keywords: "github git repository code development"
-      
+
       - name: "Netlify"
         icon: "fas fa-cloud-upload-alt"
         subtitle: "Web Hosting & Deploy"
@@ -123,7 +116,7 @@ links:
         url: "https://app.netlify.com"
         target: "_blank"
         keywords: "netlify hosting deployment web"
-      
+
       - name: "GitHub Codespaces"
         icon: "fas fa-laptop-code"
         subtitle: "Cloud Development"
@@ -144,7 +137,7 @@ links:
         url: "https://gmail.com"
         target: "_blank"
         keywords: "gmail email google mail"
-      
+
       - name: "Google Drive"
         icon: "fab fa-google-drive"
         subtitle: "Cloud Storage"
@@ -169,15 +162,7 @@ links:
   - name: "Privacy & Security"
     icon: "fas fa-shield-alt"
     items:
-      - name: "ProtonMail"
-        icon: "fas fa-lock"
-        subtitle: "Secure Email"
-        tag: "privacy"
-        tagstyle: "is-success"
-        url: "https://mail.proton.me"
-        target: "_blank"
-        keywords: "protonmail secure email privacy encrypted"
-      
+
       - name: "Bitwarden"
         icon: "fas fa-key"
         subtitle: "Password Manager"
@@ -186,7 +171,7 @@ links:
         url: "https://vault.bitwarden.com"
         target: "_blank"
         keywords: "bitwarden password manager security vault"
-      
+
   - name: "Utilities"
     icon: "fas fa-wrench"
     items:
@@ -198,16 +183,7 @@ links:
         url: "https://whatismyipaddress.com"
         target: "_blank"
         keywords: "ip address location network check"
-      
-      - name: "DNS Leak Test"
-        icon: "fas fa-globe"
-        subtitle: "DNS Security Check"
-        tag: "security"
-        tagstyle: "is-success"
-        url: "https://dnsleaktest.com"
-        target: "_blank"
-        keywords: "dns leak test security privacy"
-      
+
       - name: "Speed Test"
         icon: "fas fa-tachometer-alt"
         subtitle: "Internet Speed Test"
