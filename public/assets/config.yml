@@ -142,15 +142,6 @@ services:
         url: "https://drive.google.com"
         target: "_blank"
         keywords: "google drive cloud storage files"
-      
-      - name: "Notion"
-        icon: "fas fa-sticky-note"
-        subtitle: "Notes & Planning"
-        tag: "notes"
-        tagstyle: "is-warning"
-        url: "https://notion.so"
-        target: "_blank"
-        keywords: "notion notes planning productivity"
 
   - name: "Home Security"
     icon: "fas fa-home"
