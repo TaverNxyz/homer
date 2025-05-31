@@ -71,17 +71,16 @@ links:
     icon: "fas fa-edit"
     url: "https://github.com/escos/homer-dashboard/edit/main/config.yml"
     target: "_blank"
-    
-- name: "System Monitoring"
+
+    - name: "System Monitoring"
   icon: "fas fa-heartbeat"
   items:
     - name: "Network Status"
       logo: "assets/tools/monitor.png"
       subtitle: "Live service monitoring"
       url: "https://nopwn.tavernappy.xyz/"
-      type: "Iframe"
       target: "_blank"
-      Keywords: "esco netlify network wifi security"
+
     
   - name: "Entertainment"
     icon: "fas fa-play-circle"
