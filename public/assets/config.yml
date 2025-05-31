@@ -178,15 +178,6 @@ services:
         target: "_blank"
         keywords: "bitwarden password manager security vault"
       
-      - name: "DuckDuckGo"
-        icon: "fas fa-search"
-        subtitle: "Private Search"
-        tag: "privacy"
-        tagstyle: "is-warning"
-        url: "https://duckduckgo.com"
-        target: "_blank"
-        keywords: "duckduckgo search privacy private"
-
   - name: "Utilities"
     icon: "fas fa-wrench"
     items:
@@ -213,6 +204,6 @@ services:
         subtitle: "Internet Speed Test"
         tag: "utility"
         tagstyle: "is-primary"
-        url: "https://fast.com"
+        url: "https://ookla.com"
         target: "_blank"
         keywords: "speed test internet bandwidth netflix"
