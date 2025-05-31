@@ -75,7 +75,6 @@ links:
 - name: "System Monitoring"
   icon: "fas fa-heartbeat"
   items:
-    - name: "Network Status"
       logo: "assets/tools/monitor.png"
       subtitle: "Live service monitoring"
       url: "https://nopwn.tavernappy.xyz/"
