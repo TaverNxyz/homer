@@ -81,6 +81,7 @@ links:
       url: "https://nopwn.tavernappy.xyz/"
       type: "Iframe"
       target: "_blank"
+      Keywords: "esco netlify network wifi security"
     
   - name: "Entertainment"
     icon: "fas fa-play-circle"
