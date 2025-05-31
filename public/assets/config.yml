@@ -1,8 +1,9 @@
 # Homer Dashboard Configuration
 # Web-hosted on Netlify from GitHub
 
-title: "Escos Private Hosted Dashboard"
-subtitle: "My array"
+title: "Personal Hub"
+subtitle: "Quick Access Dashboard"
+# Use a web-accessible logo or remove this line to use the icon below
 # logo: "assets/logo.png"
 icon: "fas fa-home"
 
@@ -27,9 +28,9 @@ colors:
     background: "#eceff1"
     card-background: "#ffffff"
     text: "#263238"
-    text-header: "#37474f"
-    text-title: "#263238"
-    text-subtitle: "#546e7a"
+    text-header: "#000000"
+    text-title: "#000000"
+    text-subtitle: "#263238"
     card-shadow: rgba(0, 188, 212, 0.2)
     link: "#00bcd4"
     link-hover: "#00acc1"
@@ -40,9 +41,9 @@ colors:
     background: "#000000"
     card-background: "#121212"
     text: "#00e5ff"
-    text-header: "#18ffff"
-    text-title: "#00e5ff"
-    text-subtitle: "#4dd0e1"
+    text-header: "#000000"
+    text-title: "#000000"
+    text-subtitle: "#263238"
     card-shadow: rgba(0, 229, 255, 0.3)
     link: "#00e5ff"
     link-hover: "#18ffff"
@@ -159,7 +160,7 @@ services:
         subtitle: "Home Security & Doorbell"
         tag: "security"
         tagstyle: "is-primary"
-        url: "https://account.ring.com/account/dashboard"
+        url: "https://ring.com/app"
         target: "_blank"
         keywords: "ring doorbell security camera home"
 
