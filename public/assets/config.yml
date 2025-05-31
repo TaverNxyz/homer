@@ -204,6 +204,6 @@ services:
         subtitle: "Internet Speed Test"
         tag: "utility"
         tagstyle: "is-primary"
-        url: "https://ookla.com"
+        url: "https://www.speedtest.net/run"
         target: "_blank"
         keywords: "speed test internet bandwidth netflix"
