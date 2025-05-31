@@ -35,8 +35,6 @@ colors:
     link: "#00bcd4"
     link-hover: "#00acc1"
   dark:
-colors:
-  dark:
     highlight-primary: "#003e46"         # darker cyan for sections
     highlight-secondary: "#00514e"       # darker mint green
     highlight-hover: "#00e5ff"
