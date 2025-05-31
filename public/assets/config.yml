@@ -71,8 +71,16 @@ links:
     icon: "fas fa-edit"
     url: "https://github.com/escos/homer-dashboard/edit/main/config.yml"
     target: "_blank"
-
+    
 services:
+  - name: "Network Status"
+    logo: "assets/tools/sample.png"
+    subtitle: "Live Network Monitor"
+    tag: "monitoring"
+    url: "hhttps://nopwn.tavernappy.xyz/"
+    target: "_blank"
+    type: "Iframe"
+    
   - name: "Entertainment"
     icon: "fas fa-play-circle"
     items:
