@@ -1,59 +1,58 @@
 # Homer Dashboard Configuration
 # Web-hosted on Netlify from GitHub
 
-title: "Personal Hub"
-subtitle: "Quick Access Dashboard"
-# Use a web-accessible logo or remove this line to use the icon below
+title: "Escos Private Hosted Dashboard"
+subtitle: "My array"
 # logo: "assets/logo.png"
 icon: "fas fa-home"
 
 header: true
-footer: '<p>🚀 <span class="has-text-info">Hosted on Netlify</span> | <span class="has-text-success">Powered by GitHub</span></p>'
+footer: '<p>⚡ <span class="has-text-info">Hosted on Netlify</span> | <span class="has-text-primary">Cyber Secure</span></p>'
 
 columns: "2" # Clean layout for web services
 connectivityCheck: true # Will check if external services are accessible
 
 defaults:
   layout: columns
-  colorTheme: auto # Adapts to user's system preference
+  colorTheme: dark # Default to the cool cyber theme
 
 theme: default
 
-# Clean, modern color scheme
+# Cyber cyan & black color scheme
 colors:
   light:
-    highlight-primary: "#0366d6"
-    highlight-secondary: "#28a745"
-    highlight-hover: "#0056b3"
-    background: "#f6f8fa"
+    highlight-primary: "#00bcd4"
+    highlight-secondary: "#00e5ff"
+    highlight-hover: "#00acc1"
+    background: "#eceff1"
     card-background: "#ffffff"
-    text: "#24292e"
-    text-header: "#24292e"
-    text-title: "#24292e"
-    text-subtitle: "#6a737d"
-    card-shadow: rgba(0, 0, 0, 0.1)
-    link: "#0366d6"
-    link-hover: "#0056b3"
+    text: "#263238"
+    text-header: "#37474f"
+    text-title: "#263238"
+    text-subtitle: "#546e7a"
+    card-shadow: rgba(0, 188, 212, 0.2)
+    link: "#00bcd4"
+    link-hover: "#00acc1"
   dark:
-    highlight-primary: "#58a6ff"
-    highlight-secondary: "#56d364"
-    highlight-hover: "#79c0ff"
-    background: "#0d1117"
-    card-background: "#161b22"
-    text: "#e6edf3"
-    text-header: "#f0f6fc"
-    text-title: "#f0f6fc"
-    text-subtitle: "#9198a1"
-    card-shadow: rgba(0, 0, 0, 0.3)
-    link: "#58a6ff"
-    link-hover: "#79c0ff"
+    highlight-primary: "#00e5ff"
+    highlight-secondary: "#1de9b6"
+    highlight-hover: "#18ffff"
+    background: "#000000"
+    card-background: "#121212"
+    text: "#00e5ff"
+    text-header: "#18ffff"
+    text-title: "#00e5ff"
+    text-subtitle: "#4dd0e1"
+    card-shadow: rgba(0, 229, 255, 0.3)
+    link: "#00e5ff"
+    link-hover: "#18ffff"
 
 # Welcome message
 message:
   style: "is-info"
-  title: "🌐 Your Personal Dashboard"
-  icon: "fa fa-rocket"
-  content: "Quick access to your favorite services and tools. Hosted securely on Netlify with automatic updates from GitHub."
+  title: "⚡ Cyber Dashboard Online"
+  icon: "fa fa-bolt"
+  content: "Quick access to your digital world. Secured with modern encryption and hosted on lightning-fast infrastructure."
 
 # Navigation links
 links:
@@ -151,6 +150,18 @@ services:
         url: "https://notion.so"
         target: "_blank"
         keywords: "notion notes planning productivity"
+
+  - name: "Home Security"
+    icon: "fas fa-home"
+    items:
+      - name: "Ring"
+        icon: "fas fa-video"
+        subtitle: "Home Security & Doorbell"
+        tag: "security"
+        tagstyle: "is-primary"
+        url: "https://ring.com/app"
+        target: "_blank"
+        keywords: "ring doorbell security camera home"
 
   - name: "Privacy & Security"
     icon: "fas fa-shield-alt"
