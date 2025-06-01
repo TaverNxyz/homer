@@ -78,6 +78,15 @@ services:
   - name: "Entertainment"
     icon: "fas fa-play-circle"
     items:
+      - name: "YouTube"
+        icon: "fas fa-network-wired"
+        subtitle: "Check IP & Location"
+        tag: "utility"
+        tagstyle: "is-info"
+        url: "https://youtube.com"
+        target: "_blank"
+        keywords: "YouTube streaming channel videos YouTube"
+
       - name: "Netflix"
         icon: "fas fa-film"
         subtitle: "Movies & TV Shows"
