@@ -80,7 +80,7 @@ services:
     items:
       - name: "YouTube"
         icon: "fas fa-network-wired"
-        subtitle: "Check IP & Location"
+        subtitle: "Waste Your Life Away"
         tag: "utility"
         tagstyle: "is-info"
         url: "https://youtube.com"
